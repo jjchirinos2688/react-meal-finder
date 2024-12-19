@@ -86,7 +86,7 @@ function App() {
             setSelectedCategory={setSelectedCategory}
           />
         </GridItem>
-        <GridItem p="4" bgColor="gray.100" area={"main"}>
+        <GridItem p="4" bgColor="gray.200" area={"main"}>
           <MainContent loading={loadingMeals} meals={meals} openRecipe={searchMealDetails} />
         </GridItem>
       </Grid>
